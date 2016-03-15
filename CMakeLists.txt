@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(gameai-opencv)
+include_directories(include)
+add_executable(gameai-opencv src/main.cpp)
+set_property(TARGET gameai-opencv PROPERTY CXX_STANDARD 14)
